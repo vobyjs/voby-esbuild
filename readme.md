@@ -2,6 +2,12 @@
 
 The official Voby plugin for [Esbuild](https://esbuild.github.io).
 
+## Install
+
+```sh
+npm install --save voby-esbuild
+```
+
 ## Usage
 
 ```ts
