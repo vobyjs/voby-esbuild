@@ -1,4 +1,4 @@
-## Voby Esbuild
+# Voby Esbuild
 
 The official Voby plugin for [Esbuild](https://esbuild.github.io).
 
