@@ -15,9 +15,16 @@ import esbuild from 'esbuild';
 import voby from 'voby-esbuild';
 
 esbuild.build ({
+  bundle: true,
+  minify: true,
+  format: 'esm',
+  platform: 'node',
+  target: 'es2018',
   entryPoints: ['src.js'],
   outfile: 'dist.js',
-  plugins: [voby ()]
+  plugins: [
+    voby ()
+  ]
 });
 ```
 
