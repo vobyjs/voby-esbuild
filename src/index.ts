@@ -19,6 +19,7 @@ const esbuild = () => {
 
       build.initialOptions.jsxFactory = jsxFactory;
       build.initialOptions.jsxFragment = jsxFragment;
+      build.initialOptions.banner = { js: '"use strict";' };
 
       build.onLoad ( { filter: /\.[jt]sx$/ }, async args => {
 

@@ -3,6 +3,7 @@
 
 type Build = {
   initialOptions: {
+    banner?: { js?: string },
     jsxFactory?: string,
     jsxFragment?: string
   },
