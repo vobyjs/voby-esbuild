@@ -9,8 +9,8 @@ import type {Build, LoadCallbackResultLoader} from './types';
 
 const esbuild = () => {
 
-  const jsxInject = `import {h as $$h, Fragment as $$F} from 'voby';\n`;
-  const jsxFactory = '$$h';
+  const jsxInject = `import {createElement as $$c, Fragment as $$F} from 'voby';\n`;
+  const jsxFactory = '$$c';
   const jsxFragment = '$$F';
 
   return {
